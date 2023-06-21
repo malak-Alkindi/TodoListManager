@@ -28,8 +28,6 @@ public class toDoListController {
     private final RoleService roleServ;
 
 
-
-
     @GetMapping("get")
     public ResponseEntity<?> findAll() {
 

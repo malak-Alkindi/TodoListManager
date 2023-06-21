@@ -44,9 +44,7 @@ public class appStartUp implements CommandLineRunner {
 
 
             userService.save(new userInfo(null, "malak alkidni", "ma", "123", adminRoles));
-
             userService.save(new userInfo(null, "fahima alhabsi", "fa", "123", userRoles));
-
             userService.save(new userInfo(null, "asala alkindi", "as", "123", userRoles));
         }
 

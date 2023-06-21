@@ -45,11 +45,6 @@ public String getaccountQueryString(@RequestParam String fullName,@RequestParam 
     UserServ.save(user);
     return "user account created ,yay";
 }
-
-
-
-
-
 //    @RequestMapping(value = "country/get/{country}", method = RequestMethod.GET)
 //    public List<userInfo> getAthletes(@RequestParam(value = "country", required = false) String country ) {
 //        if (country != null) {
